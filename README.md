@@ -64,6 +64,9 @@ Toolbox(/8) | Command description | Описание команды
 id | Dungeon name | Название данжа
 --- | --- | ---
 9054 | Bathysmal Rise (Hard) | Глубинный Храм (сложно)
+9056 | Timescape (Hard) | Хроноплоскость (сложно)
+9057 | Akeron's Inferno (Hard) | Акероново пекло (сложно)
+9067 | Demokron Factory (Hard) | Лаборатория Берна (сложно)
 9068 | Shadow Sanguinary (Hard) | Убежище Дуриона (сложно)
 9754 | Bathysmal Rise | Глубинный Храм
 9759 | Forsaken Island (Hard) | Остров Мертвых (сложно)
