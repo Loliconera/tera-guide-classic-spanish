@@ -1,0 +1,16 @@
+{
+    "files": {
+        "LICENSE": "202b7b54a957eb57897c44659eac088f630b16e862ce73f4055047c5cd0b727f",
+        "README.md": "d56ce8872ba3bf997bcd1aef5d793cb82896fb1396cb5549f307f9fbfc8fc3f2",
+        "guides/9054.js": "8b512dfddcf1b9a91dca04a119b43ddfc2b4147db7592eeba96ff2390a17111d",
+        "guides/9068.js": "58b27bdb409dac63e71f4db0ccccbbcf78e04df93745939f84a90a8b06e9b338",
+        "guides/9754.js": "58d16663e92e4296af1de04427cce2316bb8fce550982c0106c5a754dc0535b3",
+        "guides/9759.js": "258308cfec24b109f0a04e29275de1ca17860fba85ea172aa2b48269f542f63a",
+        "guides/9768.js": "f9bc7b5cf768273ac5bff03d5b3e20dd95fd6ccf58d7fa951e33c60c2d42ace8",
+        "index.js": "bf2f3444939baaa7582e171cd140bf4be7c5d3f94359719c445ed3154a30e0aa",
+        "lang/dungeons.js": "4f531f81d571171dddf2140f8cf06a3460f909ff9b2b33a8d93a3c520fc81432",
+        "lang/strings.js": "33e95fa48d7a386620e561e696e52d7f72253bb1b2de749a99336110aaaade34",
+        "module.json": "03ea59c370cc4c4747960f677373e4c9d0bd52333081b244edf40287e98a6800",
+        "settings_migrator.js": "cff2cc17149a82362f846eb8652673a29a1ddabecafbbaa816b3cf8cd8d5a51a"
+    }
+}
