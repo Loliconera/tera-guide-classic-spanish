@@ -16,14 +16,14 @@
 ### :information_source: Manual installation
 The tera-guide and [tera-guide-core](https://github.com/tera-classic-mods/tera-guide-core) are already compatible with this patch.   
 For the guides to work you need a get compatible versions of **library** (classic) and **tera-guide-core** (classic):
-1. Download **library** from **[here](https://github.com/tera-private-toolbox/library/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"library"**.
+1. Download **library** from **[here](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"library"**.
 2. Download **tera-guide-core** from **[here](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"tera-guide-core"**,   
    not "tera-guide-core-master".
 
 ### :information_source: Ручная установка
 Модули tera-guide и [tera-guide-core](https://github.com/tera-classic-mods/tera-guide-core) совместимы с данным патчем уже сейчас.   
 Для работы гайдов вам потребуется установка совместимой версии **library** (classic) и **tera-guide-core** (classic):
-1. Скачайте **library** **[здесь](https://github.com/tera-private-toolbox/library/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"library"**.
+1. Скачайте **library** **[здесь](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"library"**.
 2. Скачайте **tera-guide-core** **[здесь](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"tera-guide-core"**,   
    а не "tera-guide-core-master".
 
@@ -99,7 +99,7 @@ id | Dungeon name | Название данжа
 ## More information / Дополнительная информация
 
 * Developers wiki: https://github.com/tera-classic-mods/tera-guide-core/wiki
-* For questions and suggestions, contact via Discord: **JKQ#5649**
+* For questions and suggestions, contact via Discord: **JKQ**
 
 ## Credits
 - **[Kasea](https://github.com/Kaseaa)** - Original developer of Tera-Guide module
