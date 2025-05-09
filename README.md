@@ -3,10 +3,10 @@
 ## Patch v31.04 and v33.08 (Akeron/Nova)
 
 ### :star: Available in TERA Toolbox for patch 31.04
-* Fully compatible with [TERA Toolbox for patch 31.08](https://github.com/tera-classic-toolbox/tera-toolbox).   
+* Fully compatible with [TERA Toolbox for patch 31.04](https://github.com/tera-classic-toolbox/tera-toolbox).   
   Automatic install from **Get More Mods** tab.
 
-* Полностью совместимо с [TERA Toolbox для патча 31.08](https://github.com/tera-classic-toolbox/tera-toolbox).   
+* Полностью совместимо с [TERA Toolbox для патча 31.04](https://github.com/tera-classic-toolbox/tera-toolbox).   
   Автоматическая установка через вкладку **Скачать модули**.
 
 ### :star: Available in TERA Toolbox for patch 33.08 (Akeron/Nova)
