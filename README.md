@@ -17,7 +17,7 @@ El módulo Tera-Guía y [tera-guide-core](https://github.com/tera-classic-mods/t
 Para que las guías funcionen, necesita obtener versiones compatibles de **library** (classic) and **tera-guide-core** (classic):
 
 1. Descargue **library** desde **[aquí](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** y colóquelo en la carpeta **mods** carpeta llamada como **"library"**.
-2. Descargue **tera-guide-core** desde **[aquí](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** y colóquelo en la carpeta **mods** carpeta llamada uns **"tera-guide-core"**, 
+2. Descargue **tera-guide-core** desde **[aquí](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** y colóquelo en la carpeta **mods** carpeta llamada uns **"tera-guide-core"**,
    No "tera-guide-core-master".
 
 ---
