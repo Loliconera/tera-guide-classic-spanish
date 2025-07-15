@@ -1,20 +1,24 @@
 {
     "files": {
         "LICENSE": "202b7b54a957eb57897c44659eac088f630b16e862ce73f4055047c5cd0b727f",
-        "README.md": "853e8bdf50a32b06ea93c13efcf66c2dc09f2745d3b2f232eac82aa2bc7bb299",
-        "guides/9054.js": "8b512dfddcf1b9a91dca04a119b43ddfc2b4147db7592eeba96ff2390a17111d",
-        "guides/9056.js": "fc5cb5dc1c6e6621ea0522235593262be89b2f3297b14200ec06edc3a56a539d",
-        "guides/9057.js": "f4573b62d83d332c25209db4858faafd9da3e7e2ea32fc4a1bfa2e90dcf88e8a",
-        "guides/9067.js": "a72f4442d0754a5ad0db52503c5e0a30bf30ecd6c3da85c21212a5b854338041",
-        "guides/9068.js": "58b27bdb409dac63e71f4db0ccccbbcf78e04df93745939f84a90a8b06e9b338",
-        "guides/9754.js": "58d16663e92e4296af1de04427cce2316bb8fce550982c0106c5a754dc0535b3",
-        "guides/9757.js": "281bfd592710f46ca06d8ef5994ef06c641bca4066164fd6b55dbe5d25b5df6f",
-        "guides/9759.js": "258308cfec24b109f0a04e29275de1ca17860fba85ea172aa2b48269f542f63a",
-        "guides/9768.js": "f9bc7b5cf768273ac5bff03d5b3e20dd95fd6ccf58d7fa951e33c60c2d42ace8",
-        "index.js": "bf2f3444939baaa7582e171cd140bf4be7c5d3f94359719c445ed3154a30e0aa",
-        "lang/dungeons.js": "4f531f81d571171dddf2140f8cf06a3460f909ff9b2b33a8d93a3c520fc81432",
-        "lang/strings.js": "33e95fa48d7a386620e561e696e52d7f72253bb1b2de749a99336110aaaade34",
-        "module.json": "40ed0741e7a4e3d21b28af0193cdfd92ae74d3b1c086eea9247b5b9642f23829",
+        "README.md": "47e858de09e8ed4ceac7469ec7dbc26db38a6f4627c7568592f2b9a690b11ed6",
+        "guides/9054.js": "7c98d06e268307bc3a0a99cec16d7e9116102bfcde439007ad0fc31d883e59cb",
+        "guides/9056.js": "2e5adb9fab2b5df3a539ef400917f8f258df7a78b3ff799096068c8e5060fac6",
+        "guides/9057.js": "07c1ace3e7428b4eb53837d5d9e2668fac625c80c28dc2791e409fd41f970a5f",
+        "guides/9067.js": "3ffa81e9a9ab623f92dd16151af84587881448a6130fb2213c1f05c2f4b39926",
+        "guides/9068.js": "995fdc75a593b1d5a44d82f14431b2a9487aec2cbd9e5738881c94c6d38707f9",
+        "guides/9754.js": "4ccf85a78c78a52faab8a795a2ae20647f06b132a64eb4453615b2051d8f6f23",
+        "guides/9757.js": "972188a379c75592a2140d42255a4a4be52f175771c491a062a55959bd02c240",
+        "guides/9759.js": "782f0604179097f0877252e349cb58c509966c9d3bc0fc06fc18f34b8101d12f",
+        "guides/9768.js": "b8c07d398d3cbfdaa793ec2aedab056116b614410df0cbc155d8495c9d424e9f",
+        "index.js": "f1056165f8db4c05a1642937ccc7a71848bfd0dcae6252b3d7bd6e301a28b24c",
+        "lang/dungeons.js": "98f254e8cdd892cc649bc99dee1a73cc97c4d8e5fe017ab65693be9fc98dd098",
+        "lang/strings.js": "89b2f34918f0687d4c63fe8eeaa9d22d8c8caf407b4ef2ecfa3a678776ba4f9e",
+        "module.json": "0ea0f8deb010ed3b1e5416c785c278660ab76dd649334b3d02c61be270ba7c3f",
         "settings_migrator.js": "cff2cc17149a82362f846eb8652673a29a1ddabecafbbaa816b3cf8cd8d5a51a"
+    },
+    "defs": {
+        "S_CREATURE_ROTATE": "*",
+        "S_SPAWN_NPC": "*"
     }
 }

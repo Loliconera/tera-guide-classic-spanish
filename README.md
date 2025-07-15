@@ -1,116 +1,115 @@
-# tera-guide (classic)
+# Tera Guía (classic) Español
 
-## Patch v31.04 and v33.08 (Akeron/Nova)
+## Parche v31.04 Y v33.08 (Akeron/Nova)
 
-### :star: Available in TERA Toolbox for patch 31.04
-* Fully compatible with [TERA Toolbox for patch 31.04](https://github.com/tera-classic-toolbox/tera-toolbox).   
-  Automatic install from **Get More Mods** tab.
+### :star: Compatible con TERA Toolbox para el parche 31.04
 
-* Полностью совместимо с [TERA Toolbox для патча 31.04](https://github.com/tera-classic-toolbox/tera-toolbox).   
-  Автоматическая установка через вкладку **Скачать модули**.
+* Totalmente compatible con [TERA Toolbox para el parche 31.04](https://github.com/tera-classic-toolbox/tera-toolbox).
+  Instalación automática desde la pestaña **Obtener más Mod**.
 
-### :star: Available in TERA Toolbox for patch 33.08 (Akeron/Nova)
-* Information is available on Discord: https://discord.gg/uCgpcmvpfp
-* Информация доступна в Discord: https://discord.gg/uCgpcmvpfp
+### :star: Compatible con TERA Toolbox para el parche 33.08 (Akeron/Nova)
 
-### :information_source: Manual installation
-The tera-guide and [tera-guide-core](https://github.com/tera-classic-mods/tera-guide-core) are already compatible with this patch.   
-For the guides to work you need a get compatible versions of **library** (classic) and **tera-guide-core** (classic):
-1. Download **library** from **[here](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"library"**.
-2. Download **tera-guide-core** from **[here](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** and place it to you **mods** folder named as **"tera-guide-core"**,   
-   not "tera-guide-core-master".
+* La información está disponible en Discord: <https://discord.gg/uCgpcmvpfp>
 
-### :information_source: Ручная установка
-Модули tera-guide и [tera-guide-core](https://github.com/tera-classic-mods/tera-guide-core) совместимы с данным патчем уже сейчас.   
-Для работы гайдов вам потребуется установка совместимой версии **library** (classic) и **tera-guide-core** (classic):
-1. Скачайте **library** **[здесь](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"library"**.
-2. Скачайте **tera-guide-core** **[здесь](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** и поместите в вашу папку **mods** как **"tera-guide-core"**,   
-   а не "tera-guide-core-master".
+### :information_source: Instalación manual
+
+El módulo Tera-Guía y [tera-guide-core](https://github.com/tera-classic-mods/tera-guide-core) ya son compatibles con este parche.
+Para que las guías funcionen, necesita obtener versiones compatibles de **library** (classic) and **tera-guide-core** (classic):
+
+1. Descargue **library** desde **[aquí](https://github.com/tera-classic-toolbox/library/archive/refs/heads/master.zip)** y colóquelo en la carpeta **mods** carpeta llamada como **"library"**.
+2. Descargue **tera-guide-core** desde **[aquí](https://github.com/tera-classic-mods/tera-guide-core/archive/refs/heads/master.zip)** y colóquelo en la carpeta **mods** carpeta llamada uns **"tera-guide-core"**, 
+   No "tera-guide-core-master".
 
 ---
 
-## Description / Описание
+## Descripción
 
-The dungeon guide module with Text-to-speech notifications, display hints on screen and drawing zones of bosses attacks and mechanics. Available English and Russian languages (detects automatically).
+Un módulo de guía para TERA traducido al español. Muestra mensajes en la pantalla y dibuja zonas de ataques y mecánicas de jefes (también admite mensajes de texto a voz). Idiomas disponibles en Español y Ingles (detecta automáticamente).
 
-Модуль подсказок по данжам с возможностью голосовых уведомлений, вывод подсказок в чат или на экран, а также отрисовка зон атак боссов и механик. Поддерживаются Русский и Английский языки (определяются автоматически).
+## Dependencias
 
-## Dependencies / Зависимости
-* **library** - https://github.com/tera-classic-toolbox/library
-* **tera-guide-core** - https://github.com/tera-classic-mods/tera-guide-core
+* **library** - <https://github.com/tera-classic-toolbox/library>
+* **tera-guide-core** - <https://github.com/tera-classic-mods/tera-guide-core>
 
-When using TeraToolbox, all dependencies will be installed automatically.   
-При использовании TeraToolbox, все зависимости будут установлены автоматически.
+Al usar TeraToolbox, todas las dependencias se instalarán automáticamente.
 
-## Commands / Команды
-Toolbox(/8) | Command description | Описание команды
---- | --- | ---
-**guide** | Module on/off | Вкл./выкл. модуля
-**guide&nbsp;gui** | Show module GUI| Показать графический интерфейс
-**guide&nbsp;voice**<br>(default: off) | Text-to-speech (TTS) notices on/off, speech rate is set by command **guide `1`~`10`** | Вкл./выкл. голосовых уведомлений (TTS), скорость чтения задается командой **guide `1`~`10`**
-**guide&nbsp;lNotice**<br>(default: off) | Send notices to chat channel "Notice" instead of on-screen messages on/off | Вкл./выкл. отправки уведомлений в канал чата "Важно" вместо показа экранных сообщений
-**guide&nbsp;gNotice**<br>(default: off) | Send notices to party chat channel on/off | Вкл./выкл. отправки уведомлений в канал чата группы
-**guide&nbsp;`auto`/`en`/`ru`**<br>(default: auto) | Set guide language | Выбор языка перевода
-**guide&nbsp;`1`~`10`**<br>(default: 2) | Set TTS speech rate | Регулировка скорости чтения голосовых сообщений
-**guide&nbsp;spawnObject**<br>(default: on) | Spawn marker objects on/off | Вкл./выкл. спавна маркировочных объектов
-**guide&nbsp;stream**<br>(default: off) | Streamer Mode on/off (hide all notices and objects, TTS will played) | Вкл./выкл. режима стримера (скрывает все уведомления и маркеры, TTS будет проигрываться)
-**guide&nbsp;dungeons** | List of all supported dungeons and its ids | Список всех поддерживаемых данжей и их id
-**guide&nbsp;verbose&nbsp;`id`**<br>(default: on for all) | Send notices for specified by `id` dungeon on/off | Вкл./выкл. всех уведомлений для данжа, где `id` - идентификатор данжа
-**guide&nbsp;spawnObject&nbsp;`id`**<br>(default: on for all) | Spawn marker objects for specified by `id` dungeon on/off | Вкл./выкл. спавна объектов для данжа, где `id` - идентификатор данжа
-**guide&nbsp;help** | List of supported commands | Вывод поддерживаемых команд
+## Comandos
 
-## Supported dungeons / Поддерживаемые данжи
+| Toolbox(/8)                                                           | Descripción del comando                                                          |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| **guia**                                                              | Módulo on/off                                                                    |
+| **guia&nbsp;gui**                                                     | Mostrar interfaz GUI.                                                            |
+| **guia&nbsp;voice**<br>(defecto: desactivado)                         | Mensajes de texto a voz (TTS).                                                   |
+| **guia&nbsp;lNotice**<br>(defecto: desactivado)                       | Enviar mensajes en el canal **Notice** en lugar de mensajes en pantalla.         |
+| **guia&nbsp;gNotice**<br>(defecto: desactivado)                       | Enviar mensajes en el canal **Party**.                                           |
+| **guia male~female**<br>(defecto: femenino)                           | Configure el género de voz de voz TTS (si está disponible).                      |
+| **guia&nbsp;`auto`/`en`/`es`**<br>(default: es)                       | Establecer idioma de la guía.                                                    |
+| **guia&nbsp;`1`~`10`**<br>(defecto: 2)                                | Configure la velocidad de voz TTS.                                               |
+| **guia&nbsp;spawnObject**<br>(defecto: activado)                      | Generación de objetos marcadores.                                                |
+| **guia&nbsp;stream**<br>(defecto: desactivado)                        | Modo Streamer (ocultar todos los mensajes y objetos, se reproducirá la voz TTS). |
+| **guia&nbsp;dungeons**                                                | Lista de todas las dungeons compatibles y sus identificadores.                   |
+| **guia&nbsp;verbose&nbsp;`id`**<br>(defecto: activado para todos)     | Enviar mensajes para la dungeon especificada por `id`.                           |
+| **guia&nbsp;spawnObject&nbsp;`id`**<br>(defecto: activado para todos) | Generación de objetos marcadores para la dungeon especificada por `id`.          |
+| **guia&nbsp;help**                                                    | Lista de comandos compatibles.                                                   |
 
-id | Dungeon name | Название данжа
---- | --- | ---
-9054 | Bathysmal Rise (Hard) | Глубинный Храм (сложно)
-9056 | Timescape (Hard) | Хроноплоскость (сложно)
-9057 | Akeron's Inferno (Hard) | Акероново пекло (сложно)
-9067 | Demokron Factory (Hard) | Лаборатория Берна (сложно)
-9068 | Shadow Sanguinary (Hard) | Убежище Дуриона (сложно)
-9754 | Bathysmal Rise | Глубинный Храм
-9759 | Forsaken Island (Hard) | Остров Мертвых (сложно)
-9768 | Shadow Sanguinary | Убежище Дуриона
+## Dungeons Soportados
 
-## Notices settings / Настройка уведомлений
+| ID                      | Nombre de la dungeon                        | Idioma  |
+| ----------------------- | ------------------------------------------- | ------- |
+| [9054](/guides/9054.js) | Bathysmal Rise (Difícil)                    | Español |
+| [9056](/guides/9056.js) | Timescape (Difícil)                         | Español |
+| [9057](/guides/9057.js) | Akeron's Inferno (Difícil)                  | Español |
+| [9067](/guides/9067.js) | Demokron Factory (Difícil)                  | Español |
+| [9068](/guides/9068.js) | Shadow Sanguinary (Difícil)                 | Español |
+| [9754](/guides/9754.js) | Bathysmal Rise                              | Español |
+| [9759](/guides/9759.js) | Forsaken Island (Difícil)                   | Español |
+| [9768](/guides/9768.js) | Shadow Sanguinary                           | Español |
 
-* On screen (on bottom side) and chat notices, if **lNotice** parameter is *on*.   
-  Уведомления на экране (в нижней части), а также в чате, если параметр **lNotice** - *включен*.   
-  ![](https://i.imgur.com/BPlK58M.png)
+## Configuración de Mensajes
 
-* When **gNotice** parameter is *on*, notices will also be sent to party chat channel.   
-  Если параметр **gNotice** был *включен*, уведомления также будут отправляться в канал чата группы.   
+* En la pantalla (en la parte inferior) y mensajes de chat, si el parámetro **lNotice** está _activado_, todos los mensajes se enviaran al canal **Notice**. (**Mensajes en Chat Notice**).<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/9590b9f4-c7c3-4db7-982c-ae70cd2c5dab" alt="drawing" width="435"/>
 
-* The message on top side of the screen, if **lNotice** parameter is *off* (by default).   
-  Сообщение в верхней части экрана, если параметр **lNotice** - *выключен* (по-умолчанию).   
-  ![](https://i.imgur.com/r2bb8Wc.png)   
-  You can set the color for this type of notices using the commands or GUI (also change color in the Toolbox chat).   
-  Возможен выбор цвета для этого вида уведомлений при помощи команд или графического интерфейса (также изменяется цвет в чате Toolbox).
+* En la pantalla (en la parte superior), si el parámetro **lNotice** está _desactivado_, todos los mensajes se mostraran en la parte superior de la pantalla. (**Mensajes en Pantalla**).<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/cbad0e85-27cd-4ff7-a079-302c63580d5c" alt="drawing" width="435"/>
 
-* When Streamer Mode is *on* (**stream** parameter), all text notices ONLY sent to Toolbox(/8) chat channel, but TTS notices will be played.   
-  Если *включен* режим стримера (парам. **stream**), все текстовые уведомления будут отправляться ТОЛЬКО в канал чата Toolbox(/8), однако голосовые уведомления будут проигрываться.
+* Cuando el parámetro **gNotice** está _activado_, todos los mensajes se enviarán al canal **Party**. (**Mensaje en Chat Party**).<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/9dd3c39c-a802-40c7-86d1-706acaa19e0e" alt="drawing" width="435"/>
 
-* To disable or enable TTS notifications, use the **guide voice** command.   
-  Для отключения или включения голосовых уведомлений используется команда **guide voice**.
+* Cuando el parámetro **stream** está _activado_, todos los mensajes de texto se enviarán solamente al canal de chat **Toolbox(/8)**, pero se reproducirán los mensajes de texto a voz TTS. (**Mensajes en Chat Toolbox**).<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/39b251f0-4818-475d-8357-9925f7b14184" alt="drawing" width="435"/>
+* Escriba el comando **!guia help** para mostrar una lista completa de todos los comandos soportados y una lista de colores de textos en pantalla.<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/f9922fd7-d62d-4297-bc39-4e561cd3e384" alt="drawing" width="435"/>
 
-## Module GUI / Графический интерфейс
+* Cuando ingresa a una dungeon el modulo le notificará con un mensaje de bienvenida, donde tambien le mostrara informacion adicional para el uso de comandos.<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/d33cf5ab-5c64-4ca1-8bae-1b6afcd111f0" alt="drawing" width="498"/>
 
-* When you enter the **guide gui** command, the module GUI is displayed, allowing you to change basic settings.   
-  При вводе команды **guide gui** отображается графический интерфейс модуля, позволяющий осуществить основные настройки.   
-  ![](https://i.imgur.com/72hDCvQ.png)
+* Para desactivar o activar los mensajes de texto a voz TTS, use el comando **!guia voice**.<br>
 
-## More information / Дополнительная информация
+* Para cambiar el género de la a voz TTS, use el comando **!guia `male`/`female`**.<br>
 
-* Developers wiki: https://github.com/tera-classic-mods/tera-guide-core/wiki
-* For questions and suggestions, contact via Discord: **JKQ**
+* Para **cambiar a otro idioma**, use el comando **!guia `auto`/`en`/`es`**, o tambien puede utilizar la interfaz GUI y selecionar el idioma que desea.<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/f0806ac4-e2bb-48c4-b55d-61ec6997ef3f" alt="drawing" width="498"/>
 
-## Credits
-- **[Kasea](https://github.com/Kaseaa)** - Original developer of Tera-Guide module
-- **[michengs](https://github.com/michengs)** - Author of base code for most guides and module core
-- **[ZC](https://github.com/tera-mod)** - Provided coordinates for rendering attack areas and mechanics
-- **[Kuroine](https://github.com/Kuroine)** - Author of base code for the DA guide
-- **[Multarix](https://github.com/Multarix)** - Author of the RR guide and also making changes to the English translation
-- **[Owyn](https://github.com/Owyn)** - Developer of great guides for RK-9, AA and GV, whose code was used
-- **[Emilia](https://github.com/emilia-s2)** - Author of Portuguese translation and guardian guides
-- **[Loliconera](https://github.com/Loliconera)** - Author of Spanish translation
-- **[ITunk](https://github.com/GrafNikola)** - Author of initial Russian translation
+## Interfaz GUI
+
+* Escriba el comando **!guia gui** para mostrar una interfaz gráfica del modulo, puede tambien cambiar las configuraciones básicas.<br>
+  <img src="https://github.com/Loliconera/tera-guide-spanish/assets/69399372/3d5b294b-03e7-4128-8eae-22f9a585ebbe" alt="drawing" width="498"/>
+
+## Más información
+
+* Wiki para desarrolladores [HSDN](https://github.com/hsdn/tera-guide-core/wiki)
+* Para preguntas y sugerencias, comuníquese a través de Discord: **JKQ#5649**
+
+## Créditos
+
+* **[Kasea](https://github.com/Kaseaa)** - Desarrollador original del módulo Tera-Guide
+* **[HSDN](https://github.com/HSDN)** - Autor original del módulo en inglés tera-guide HSDN
+* **[michengs](https://github.com/michengs)** - Autor del código base para la mayoría de las guías y el núcleo del módulo
+* **[ZC](https://github.com/tera-mod)** - Coordenadas proporcionadas para representar las áreas de ataque y la mecánica
+* **[Kuroine](https://github.com/Kuroine)** - Autor del código base de la guía DA
+* **[Multarix](https://github.com/Multarix)** - Autor de la guía RR y también realizando cambios en la traducción al inglés
+* **[Owyn](https://github.com/Owyn)** - Desarrollador de grandes guías para RK-9, AA y GV, cuyo código se utilizó
+* **[Loliconera](https://github.com/Loliconera)** - Autor de traducción al español latino
+* **[Emilia](https://github.com/emilia-s2)** - Autora de traducción al portugués y guías de guardian
+* **[ITunk](https://github.com/GrafNikola)** - Autor de la traducción inicial al ruso

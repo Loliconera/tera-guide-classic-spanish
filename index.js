@@ -3,13 +3,13 @@
 module.exports.NetworkMod = function (mod) {
 	try {
 		mod.require["tera-guide-core"].load(mod, {
-			languages: ["en", "ru"], // supported languages
-			colors: { gui: {}, general: {} }, // color settings
-			command: ["guide"], // module command
-			chat_name: "Guide", // set chat author name for notices
+			languages: ["en", "es"], // Idiomas soportados
+			colors: { gui: {}, general: {} }, // ajustes de color
+			command: ["guia"], // comando del módulo
+			chat_name: "Guía", // establecer el nombre del autor del chat para los avisos
 		});
 	} catch (e) {
-		mod.error("Warning!\nDepended module \"tera-guide-core\" needed for TERA-Guide is not installed!\nPlease download and install: https://github.com/tera-classic-mods/tera-guide-core\n");
+		mod.error("¡Advertencia!\n¡El modulo dependiente \"tera-guide-core\" necesario para el correcto funcionamiento del modulo TERA-Guía-ES no está instalado!\nPor favor descargue e instale: https://github.com/tera-classic-mods/tera-guide-core\n");
 		throw e;
 	}
 };

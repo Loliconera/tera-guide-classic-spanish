@@ -1,4 +1,4 @@
-﻿// Timescape (Hard)
+﻿// Timescape (Difícil)
 //
 // made by HSDN
 
@@ -38,14 +38,14 @@ module.exports = (dispatch, handlers, guide, lang) => {
 			handlers.text({
 				sub_type: "notification",
 				message: "Set",
-				message_RU: "Установлено",
+				message_ES: "Notificación",
 				speech: false
 			});
 		} else {
 			handlers.text({
 				sub_type: "notification",
 				message: `Small: ${small}, Middle: ${middle}, Large: ${large}`,
-				message_RU: `Малый: ${small}, Средний: ${middle}, Большой: ${large}`,
+				message_ES: `Pequeño: ${small}, Medio: ${middle}, Grande: ${large}`,
 				speech: false
 			});
 		}
@@ -55,21 +55,21 @@ module.exports = (dispatch, handlers, guide, lang) => {
 		if (e.templateId === 243) {
 			third_boss_wall_w = third_boss_sun_w;
 			handlers.event([
-				{ type: "text", sub_type: "alert", message: "Wall Change (Sun)", message_RU: "Смена печати (Солнце)" },
+				{ type: "text", sub_type: "alert", message: "Wall Change (Sun)", message_ES: "Cambio de Pared (Sol)" },
 				{ type: "func", func: third_boss_wall_announce, delay: 2000 }
 			]);
 		}
 		if (e.templateId === 244) {
 			third_boss_wall_w = third_boss_daemon_w;
 			handlers.event([
-				{ type: "text", sub_type: "alert", message: "Wall Change (Demon)", message_RU: "Смена печати (Демон)" },
+				{ type: "text", sub_type: "alert", message: "Wall Change (Demon)", message_ES: "Cambio de Pared (Demonio)" },
 				{ type: "func", func: third_boss_wall_announce, delay: 2000 }
 			]);
 		}
 		if (e.templateId === 245) {
 			third_boss_wall_w = third_boss_goddess_w;
 			handlers.event([
-				{ type: "text", sub_type: "alert", message: "Wall Change (Goddess)", message_RU: "Смена печати (Богиня)" },
+				{ type: "text", sub_type: "alert", message: "Wall Change (Goddess)", message_ES: "Cambio de Pared (Diosa)" },
 				{ type: "func", func: third_boss_wall_announce, delay: 2000 }
 			]);
 		}
@@ -111,21 +111,21 @@ module.exports = (dispatch, handlers, guide, lang) => {
 			{ type: "despawn_all" }
 		],
 		"s-456-401-104-0": [
-			{ type: "text", sub_type: "message", message: "Bomb", message_RU: "Бомба" },
+			{ type: "text", sub_type: "message", message: "Bomb", message_ES: "Bomba" },
 			{ type: "text", sub_type: "warning", message: "(1)", speech: false, delay: 550 },
 			{ type: "text", sub_type: "warning", message: "(2)", speech: false, delay: 1300 },
 			{ type: "text", sub_type: "warning", message: "(3)", speech: false, delay: 2050 },
-			{ type: "text", sub_type: "message", message: "(4) Dodge!", message_RU: "(4) Эвейд!", delay: 2800 }
+			{ type: "text", sub_type: "message", message: "(4) Dodge!", message_ES: "(4) ¡Iframe!", delay: 2800 }
 		],
-		"s-456-1001-107-0": [{ type: "text", sub_type: "alert", message: "Shot", message_RU: "Выстрел" }],
+		"s-456-1001-107-0": [{ type: "text", sub_type: "alert", message: "Shot", message_ES: "Disparar" }],
 
-		"s-456-403-106-0": [{ type: "text", sub_type: "alert", message: "Circle", message_RU: "Круг" }],
-		"s-456-1001-103-0": [{ type: "text", sub_type: "alert", message: "Tail", message_RU: "Хвост" }],
-		"s-456-1001-101-0": [{ type: "text", sub_type: "alert", message: "Hit", message_RU: "Удар" }],
-		"s-456-1001-112-0": [{ type: "text", sub_type: "message", message: "Rotate", message_RU: "Разворот" }],
+		"s-456-403-106-0": [{ type: "text", sub_type: "alert", message: "Circle", message_ES: "Círculo" }],
+		"s-456-1001-103-0": [{ type: "text", sub_type: "alert", message: "Tail", message_ES: "Cola" }],
+		"s-456-1001-101-0": [{ type: "text", sub_type: "alert", message: "Hit", message_ES: "Golpear" }],
+		"s-456-1001-112-0": [{ type: "text", sub_type: "message", message: "Rotate", message_ES: "Girar" }],
 		"s-456-1001-113-0": "s-456-1001-112-0",
-		"s-456-1001-111-0": [{ type: "text", sub_type: "message", message: "Flight", message_RU: "Взлет" }],
-		"qb-456-1001-456020": [{ type: "text", sub_type: "message", message: "Give stun", message_RU: "Дать стан" }],
+		"s-456-1001-111-0": [{ type: "text", sub_type: "message", message: "Flight", message_ES: "Volar" }],
+		"qb-456-1001-456020": [{ type: "text", sub_type: "message", message: "Give stun", message_ES: "Dar Stun" }],
 
 		// Boss 1 (phase 2)
 		"nd-456-413": [
@@ -133,19 +133,19 @@ module.exports = (dispatch, handlers, guide, lang) => {
 			{ type: "despawn_all" }
 		],
 		"s-456-413-104-0": [
-			{ type: "text", sub_type: "message", message: "Bomb", message_RU: "Бомба" },
+			{ type: "text", sub_type: "message", message: "Bomb", message_ES: "Bomba" },
 			{ type: "text", sub_type: "warning", message: "(1)", speech: false, delay: 550 },
 			{ type: "text", sub_type: "warning", message: "(2)", speech: false, delay: 1300 },
 			{ type: "text", sub_type: "warning", message: "(3)", speech: false, delay: 2050 },
-			{ type: "text", sub_type: "message", message: "(4) Dodge!", message_RU: "(4) Эвейд!", delay: 2800 }
+			{ type: "text", sub_type: "message", message: "(4) Dodge!", message_ES: "(4) ¡Iframe!", delay: 2800 }
 		],
 		"s-456-414-104-0": "s-456-413-104-0",
 		"s-456-415-104-0": "s-456-413-104-0",
 		"s-456-416-104-0": "s-456-413-104-0",
-		"s-456-1000-107-0": [{ type: "text", sub_type: "alert", message: "Shot", message_RU: "Выстрел" }],
+		"s-456-1000-107-0": [{ type: "text", sub_type: "alert", message: "Shot", message_ES: "Disparar" }],
 		"ab-456-1000-905685": [
-			{ type: "text", sub_type: "message", message: "Plague of Exhaustion", message_RU: "Регресс", class_position: "priest" },
-			{ type: "text", sub_type: "message", message: "Regression", message_RU: "Регресс", class_position: "mystic" }
+			{ type: "text", sub_type: "message", message: "Plague of Exhaustion", message_ES: "Plague", class_position: "priest" },
+			{ type: "text", sub_type: "message", message: "Regression", message_ES: "Regression", class_position: "mystic" }
 		],
 
 		"s-456-1000-103-0": "s-456-1001-103-0",
@@ -160,18 +160,18 @@ module.exports = (dispatch, handlers, guide, lang) => {
 			{ type: "stop_timers" },
 			{ type: "despawn_all" }
 		],
-		"s-456-1002-102-0": [{ type: "text", sub_type: "message", message: "Jump", message_RU: "Прыжок" }],
-		"s-456-1002-103-0": [{ type: "text", sub_type: "message", message: "Combo", message_RU: "Комба" }],
-		"s-456-1002-104-0": [{ type: "text", sub_type: "message", message: "Shot (target)", message_RU: "Выстрел (таргет)" }],
-		"s-456-1002-107-0": [{ type: "text", sub_type: "message", message: "Many Pokes", message_RU: "Серия ударов" }],
-		"s-456-1002-110-0": [{ type: "text", sub_type: "message", message: "Clap", message_RU: "Удар вперед" }],
-		"s-456-1002-111-0": [{ type: "text", sub_type: "message", message: "Front | Jump Back", message_RU: "Удар вперед | Прыжок назад" }],
-		"s-456-1002-212-0": [{ type: "text", sub_type: "message", message: "Jump Back", message_RU: "Прыжок назад" }],
-		"s-456-1002-314-0": [{ type: "text", sub_type: "alert", message: "Lay Back", message_RU: "Кувырок назад" }],
-		"s-456-1002-315-0": [{ type: "text", sub_type: "alert", message: "Lay Front", message_RU: "Кувырок вперед" }],
-		"s-456-1002-319-0": [{ type: "text", sub_type: "alert", message: "Spin", message_RU: "Крутилка" }],
-		"s-456-1002-3110-0": [{ type: "text", sub_type: "message", message: "Breath", message_RU: "Дыхание" }],
-		"s-456-1002-3113-0": [{ type: "text", sub_type: "message", message: "AOE (Give stun)", message_RU: "АОЕ (Дать стан)", delay: 4000 }],
+		"s-456-1002-102-0": [{ type: "text", sub_type: "message", message: "Jump", message_ES: "Saltar" }],
+		"s-456-1002-103-0": [{ type: "text", sub_type: "message", message: "Combo", message_ES: "Combo" }],
+		"s-456-1002-104-0": [{ type: "text", sub_type: "message", message: "Shot (target)", message_ES: "Disparar -> (Objetivo)" }],
+		"s-456-1002-107-0": [{ type: "text", sub_type: "message", message: "Many Pokes", message_ES: "Muchos Golpes" }],
+		"s-456-1002-110-0": [{ type: "text", sub_type: "message", message: "Clap", message_ES: "Aplaudir" }],
+		"s-456-1002-111-0": [{ type: "text", sub_type: "message", message: "Front | Jump Back", message_ES: "Aplaudir | Saltar Atrás" }],
+		"s-456-1002-212-0": [{ type: "text", sub_type: "message", message: "Jump Back", message_ES: "Saltar Atrás" }],
+		"s-456-1002-314-0": [{ type: "text", sub_type: "alert", message: "Lay Back", message_ES: "Tumbarse" }],
+		"s-456-1002-315-0": [{ type: "text", sub_type: "alert", message: "Lay Front", message_ES: "Tirarse" }],
+		"s-456-1002-319-0": [{ type: "text", sub_type: "alert", message: "Spin", message_ES: "Girar" }],
+		"s-456-1002-3110-0": [{ type: "text", sub_type: "message", message: "Breath", message_ES: "Aliento" }],
+		"s-456-1002-3113-0": [{ type: "text", sub_type: "message", message: "AOE (Give stun)", message_ES: "AOE (Dar Stun)", delay: 4000 }],
 
 		// Boss 3
 		"nd-456-1003": [
@@ -179,27 +179,27 @@ module.exports = (dispatch, handlers, guide, lang) => {
 			{ type: "despawn_all" }
 		],
 		"ab-456-1003-905607": [
-			{ type: "text", sub_type: "message", message: "Cleanse + Plague of Exhaustion", message_RU: "Клинс + регресс", class_position: "priest" },
-			{ type: "text", sub_type: "message", message: "Cleanse + Regression", message_RU: "Клинс + регресс", class_position: "mystic" }
+			{ type: "text", sub_type: "message", message: "Cleanse + Plague of Exhaustion", message_ES: "Cleanse + Plague", class_position: "priest" },
+			{ type: "text", sub_type: "message", message: "Cleanse + Regression", message_ES: "Cleanse + Regression", class_position: "mystic" }
 		],
 		"s-456-1003-3101-0": [
-			{ type: "text", sub_type: "message", message: "Take a Circle", message_RU: "Взять бублик", check_func: () => third_boss_wall_w !== third_boss_middle_w },
-			{ type: "text", sub_type: "message", message: "Don't Take a Circle", message_RU: "Не брать бублик", check_func: () => third_boss_wall_w === third_boss_middle_w }
+			{ type: "text", sub_type: "message", message: "Take a Circle", message_ES: "Toma la Dona", check_func: () => third_boss_wall_w !== third_boss_middle_w },
+			{ type: "text", sub_type: "message", message: "Don't Take a Circle", message_ES: "No tomes la Dona", check_func: () => third_boss_wall_w === third_boss_middle_w }
 		],
 		"s-756-1003-103-0": [
-			{ type: "text", sub_type: "message", message: "Spin", message_RU: "Крутилка" },
+			{ type: "text", sub_type: "message", message: "Spin", message_ES: "Girar" },
 			{ type: "spawn", func: "circle", args: [false, 553, 0, 0, 10, 340, 0, 5000] }
 		],
-		"s-456-1003-104-0": [{ type: "text", sub_type: "message", message: "Clap", message_RU: "Удар вперед" }],
-		"s-456-1003-105-0": [{ type: "text", sub_type: "message", message: "Front", message_RU: "Вперед" }],
-		"s-456-1003-105-1": [{ type: "text", sub_type: "message", message: "Back", message_RU: "Назад" }],
-		"s-456-1003-107-0": [{ type: "text", sub_type: "message", message: "Swipe", message_RU: "Откид" }],
-		"s-456-1003-108-0": [{ type: "text", sub_type: "message", message: "Swipe", message_RU: "Откид" }],
-		"s-456-1003-109-0": [{ type: "text", sub_type: "message", message: "Breath (target)", message_RU: "Дыхание (таргет)" }],
-		"s-456-1003-111-0": [{ type: "text", sub_type: "message", message: "Leash (target)", message_RU: "Притяжка (таргет)" }],
-		"s-456-1003-3104-0": [{ type: "text", sub_type: "message", message: "Cage", message_RU: "Клетка" }], // 456016
-		"s-456-1003-3108-0": [{ type: "text", sub_type: "message", message: "Waves", message_RU: "Волны" }],
-		"qb-456-1003-456015": [{ type: "text", sub_type: "message", message: "AOE", message_RU: "АОЕ" }], // 3103
-		"qb-456-1003-456017": [{ type: "text", sub_type: "message", message: "Give Stun", message_RU: "Дать стан" }] // 3102
+		"s-456-1003-104-0": [{ type: "text", sub_type: "message", message: "Clap", message_ES: "Aplaudir" }],
+		"s-456-1003-105-0": [{ type: "text", sub_type: "message", message: "Front", message_ES: "Ataque Frontal" }],
+		"s-456-1003-105-1": [{ type: "text", sub_type: "message", message: "Back", message_ES: "Ataque Atrás" }],
+		"s-456-1003-107-0": [{ type: "text", sub_type: "message", message: "Swipe", message_ES: "Golpe Fuerte" }],
+		"s-456-1003-108-0": [{ type: "text", sub_type: "message", message: "Swipe", message_ES: "Golpe Fuerte" }],
+		"s-456-1003-109-0": [{ type: "text", sub_type: "message", message: "Breath (target)", message_ES: "Aliento -> (Objetivo)" }],
+		"s-456-1003-111-0": [{ type: "text", sub_type: "message", message: "Leash (target)", message_ES: "Correa -> (Objetivo)" }],
+		"s-456-1003-3104-0": [{ type: "text", sub_type: "message", message: "Cage", message_ES: "Jaula" }], // 456016
+		"s-456-1003-3108-0": [{ type: "text", sub_type: "message", message: "Waves", message_ES: "Olas" }],
+		"qb-456-1003-456015": [{ type: "text", sub_type: "message", message: "AOE", message_ES: "AOE" }], // 3103
+		"qb-456-1003-456017": [{ type: "text", sub_type: "message", message: "Give Stun", message_ES: "Dar Stun" }] // 3102
 	};
 };

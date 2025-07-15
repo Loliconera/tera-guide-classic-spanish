@@ -1,6 +1,6 @@
 "use strict";
 
-// Available names for additional languages
+// Nombres disponibles para idiomas adicionales
 module.exports = {
 	7011: {
 		"en": "Shadow of the Gutrends (Guardian)",

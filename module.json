@@ -1,19 +1,19 @@
 {
-    "name": "tera-guide",
+    "name": "Tera Guía Español",
     "options": {
-        "niceName": "Guide",
-        "guiName": "TERA-Guide (Classic)",
+        "niceName": "Tera Guía",
+        "guiName": "<font color='#FFE900'><b>Tera Guía ES</b></font> ‍‍‍‍<font color='#FFB600'><b>(Clásico)</b></font> ‍‍‍‍ ",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 1
     },
-    "author": "HSDN",
-    "description": "The dungeon guide module with TTS notifications. Display hints on screen and drawing zones of bosses attacks and mechanics.",
-    "servers": ["https://raw.githubusercontent.com/tera-classic-mods/tera-guide/master/"],
-    "supportUrl": "https://github.com/tera-classic-mods/tera-guide/issues",
+    "author": " ‍‍‍‍<font color='#02fa02'>HSDN</font> ‍‍‍‍ / ‍‍‍‍<font color='#FC0FC0'>Loliconera</font>",
+    "description": "Guía de Dungeons para TERA en <font color='#00bb2d'>ES</font><font color='#FFFFFF'>PA</font><font color='#FF0000'>ÑOL</font>. Esta guía está diseñada para TERA Classic.",
+    "servers": ["https://raw.githubusercontent.com/Loliconera/tera-guide-classic-spanish/master/"],
+    "supportUrl": "https://github.com/Loliconera/tera-guide-classic-spanish",
     "dependencies": {
         "tera-guide-core": "https://raw.githubusercontent.com/tera-classic-mods/tera-guide-core/master/module.json"
     },
     "disableAutoUpdate": false,
-    "version": "5/9/2025"
+    "version": "<font color='#00FF0F'>v31.04</font> ‍‍‍‍ y  ‍‍‍‍<font color='#FC0FC0'>v33.08</font>"
 }
