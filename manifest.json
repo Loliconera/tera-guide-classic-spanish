@@ -15,7 +15,7 @@
         "lang/dungeons.js": "98f254e8cdd892cc649bc99dee1a73cc97c4d8e5fe017ab65693be9fc98dd098",
         "lang/strings.js": "89b2f34918f0687d4c63fe8eeaa9d22d8c8caf407b4ef2ecfa3a678776ba4f9e",
         "module.json": "c764d5a7b2874031843e73361bd42f4c76ce982d2e8bc2d2ffd1dc51cdd9df68",
-        "settings_migrator.js": "cff2cc17149a82362f846eb8652673a29a1ddabecafbbaa816b3cf8cd8d5a51a"
+        "settings_migrator.js": "06eb897d745c83ed1185c56271030edb02895c8acc39e8199e760d7ce92f4823"
     },
     "defs": {
         "S_CREATURE_ROTATE": "*",
